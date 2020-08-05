@@ -55,8 +55,7 @@ body {
   background: radial-gradient(ellipse at center, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0.9) 100%); 
 }
 
-.main-text {
-  position: relative;
+.hero__text {
   flex-grow: 1;
   display: flex;
   flex-flow: column;
@@ -68,14 +67,14 @@ body {
   z-index: 1;
 }
 
-.main-text h1 {
+.hero__text--title {
   /* max-width: 640px; */
   font-size: 4.5rem;
   margin: 0 auto;
   line-height: 1.2;
 }
 
-.main-text h2 {
+.hero__text--subtitle {
   /* max-width: 450px; */
   font-size: 3rem;
   font-weight: normal;
