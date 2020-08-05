@@ -29,18 +29,18 @@ body {
 
 .signin-btn {
   background-color: #e50914;
-  padding: 0.15em 0.5em;
-  font-size: 2.5rem;
+  padding: 0.1em 0.5em;
+  font-size: 1rem;
   float: right;
   border-radius: .25em;
-  /* margin-top: .5em; */
+  margin-top: .5em;
   color: #fff;
   text-decoration: none;
 }
 
 .hero {
   position: relative;
-  height: 80vh;
+  height: 75vh;
   display: flex;
   flex-flow: column;
   background-image: url('./assets/movie-pic.jpg');
@@ -61,7 +61,7 @@ body {
   flex-flow: column;
   align-content: center;
   justify-content: center;
-  padding: 7rem 3rem;
+  padding: 2rem 2rem;
   color: #fff;
   text-align: center;
   z-index: 1;
@@ -76,7 +76,6 @@ body {
 
 .hero__text--subtitle {
   /* max-width: 450px; */
-  font-size: 3rem;
+  font-size: 1rem;
   font-weight: normal;
-  margin: 1em auto;
 }
