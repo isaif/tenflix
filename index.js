@@ -7,7 +7,7 @@ for(let i=0; i<faqItems.length; i++){
 
 function toggle(e) {
   // The faq item which has been clicked
-  const targetFaqItem = e.currentTarget.getElementsByClassName('faq-answer').classList;
+  const targetFaqItem = e.currentTarget.getElementsByClassName('faq-answer')[0].classList;
   // if targetFaqItem doesn't have closed in its class name
   // i.e. it is not closed then close it
   if(!targetFaqItem[1]){
