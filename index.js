@@ -1,37 +1,29 @@
 const faqItems = document.getElementsByClassName('faq-list-item');
-// console.log(faqItems);
 
 for(let i=0; i<faqItems.length; i++){
-  // console.log(faqItems[i]);
   const faq = faqItems[i];
   faq.onclick = toggle;
 }
 
 function toggle(e) {
-  const ans = e.currentTarget.getElementsByClassName('faq-answer');
-  // console.log(ans);
-  // console.log(ans[0].classList);
-  const currentAnswer = ans[0].classList;
-  // console.log(currentAnswer[1]);
-  if(!currentAnswer[1]){
+  // The faq item which has been clicked
+  const targetFaqItem = e.currentTarget.getElementsByClassName('faq-answer').classList;
+  // if targetFaqItem doesn't have closed in its class name
+  // i.e. it is not closed then close it
+  if(!targetFaqItem[1]){
     closeAll();
   } else {
     closeAll();
-    currentAnswer.remove('closed');
+    targetFaqItem.remove('closed');
   }
 }
 
 function closeAll() {
-    // currentAnswer.add('closed');
-    // console.log("clicked",e.currentTarget);
     const faqAnswers = document.getElementsByClassName('faq-answer');
-    // console.log(faqAnswers);
     for(let i=0; i<faqAnswers.length; i++){
-      const iss = faqAnswers[i].classList;
-      // console.log(iss);
-      // console.log(iss[1]);
-      if(!iss[1]){
-        iss.add('closed');
+      const faqAnswerClassNames = faqAnswers[i].classList;
+      if(!faqAnswerClassNames[1]){
+        faqAnswerClassNames.add('closed');
       }
     }
 }
