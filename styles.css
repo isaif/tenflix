@@ -119,6 +119,36 @@ body {
   border-bottom: .5em solid #222;
 }
 
-.section__text {
+.section__text, .footer__text {
   text-align: center;
+}
+
+.footer {
+  color: #757575;
+}
+
+.footer__text p {
+  margin: 0;
+}
+
+.footer-container {
+  padding: 0;
+  margin: 0;
+  margin-top: 1.5em;
+}
+
+.footer-link-item {
+  padding-left: 1em;
+  list-style: none;
+  text-align: left;
+}
+
+.footer-link-item + .footer-link-item {
+  margin-top: 0.7em;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #757575;
+  font-size: .8rem;
 }
