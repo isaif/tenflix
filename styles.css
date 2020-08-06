@@ -123,6 +123,24 @@ body {
   text-align: center;
 }
 
+.faq-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5em 0;
+}
+
+.faq-question {
+  display: block;
+  background: #303030;
+  padding: 0.8em 1.5em;
+  margin-bottom: 0.6em;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-size: 1rem;
+  color: #fff;
+}
+
 .footer {
   color: #757575;
 }
