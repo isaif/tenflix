@@ -132,13 +132,21 @@ body {
 .faq-question {
   display: block;
   background: #303030;
-  padding: 0.8em 1.5em;
+  padding: 1em 1em;
   margin-bottom: 0.6em;
   border: none;
   width: 100%;
   text-align: left;
   font-size: 1rem;
   color: #fff;
+}
+
+.svg-icon {
+  fill: #fff;
+  height: 1em;
+  width: 1em;
+  float: right;
+  transform: rotate(-45deg);
 }
 
 .footer {
