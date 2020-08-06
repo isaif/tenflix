@@ -94,6 +94,7 @@ body {
   /* max-width: 450px; */
   font-size: 1rem;
   font-weight: normal;
+  line-height: 1.5;
 }
 
 .form-title {
@@ -135,7 +136,7 @@ body {
 .faq-list {
   list-style: none;
   padding: 0;
-  margin: 1.5em 0;
+  margin: 1.5em 0 3em 0;
 }
 
 .faq-list-item {
@@ -161,6 +162,10 @@ body {
 
 .faq-answer.closed {
   display: none;
+}
+
+.faq-answer span {
+  font-size: 1em;
 }
 
 .svg-icon {
