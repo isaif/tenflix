@@ -136,7 +136,7 @@ body {
 .faq-list {
   list-style: none;
   padding: 0;
-  margin: 1.5em 0 3em 0;
+  margin: 1.5em 0 2em 0;
 }
 
 .faq-list-item {
@@ -165,7 +165,7 @@ body {
 }
 
 .faq-answer span {
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .svg-icon {
