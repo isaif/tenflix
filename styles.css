@@ -138,6 +138,8 @@ body {
 }
 
 .footer-link-item {
+  display: inline-block;
+  width: 43%;
   padding-left: 1em;
   list-style: none;
   text-align: left;
