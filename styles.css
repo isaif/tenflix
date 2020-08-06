@@ -137,16 +137,29 @@ body {
   margin: 1.5em 0;
 }
 
+.faq-list-item {
+  margin-bottom: 0.5em;
+}
+
 .faq-question {
   display: block;
   background: #303030;
   padding: 1em 1em;
-  margin-bottom: 0.6em;
+  margin-bottom: 0.15em;
   border: none;
   width: 100%;
   text-align: left;
   font-size: 1rem;
   color: #fff;
+}
+
+.faq-answer {
+  background: #303030;
+  padding: 1em;
+}
+
+.faq-answer.closed {
+  display: none;
 }
 
 .svg-icon {
