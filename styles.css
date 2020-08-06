@@ -20,8 +20,8 @@ body {
 }
 
 .header {
-  margin: 0;
-  padding: 1em 1em 0 1em;
+  /* margin: 0; */
+  /* padding: 1em 1em 0 1em; */
   z-index: 1;
 }
 
@@ -48,8 +48,6 @@ body {
 .hero {
   position: relative;
   height: 75vh;
-  display: flex;
-  flex-flow: column;
   background-image: url('./assets/movie-pic.jpg');
   background-size: cover;
   background-position: center;
@@ -63,6 +61,16 @@ body {
   background: radial-gradient(ellipse at center, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0.9) 100%); 
 }
 
+.hero-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 1em 0;
+}
+
 .hero__text {
   flex-grow: 1;
   display: flex;
@@ -70,7 +78,7 @@ body {
   flex-flow: column;
   align-content: center;
   justify-content: center;
-  padding: 2rem 2rem;
+  /* padding: 2rem 2rem; */
   z-index: 1;
 }
 
