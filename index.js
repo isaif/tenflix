@@ -21,11 +21,13 @@ faqList.addEventListener('click', function(event) {
 });
 
 function closeAll() {
-    const faqAnswers = document.getElementsByClassName('faq-answer');
-    for(let i=0; i<faqAnswers.length; i++){
-      const faqAnswerClassNames = faqAnswers[i].classList;
-      if(!faqAnswerClassNames[1]){
-        faqAnswerClassNames.add('closed');
-      }
+  const faqAnswers = document.getElementsByClassName('faq-answer');
+
+  // convert faqAnswers from HTMLcolletion to an array and loop
+  [...faqAnswers].forEach(answer => {
+    answerClasses = answer.classList;
+    if(!answerClasses.contains('closed')){
+      answerClasses.add('closed');
     }
+  })
 }
