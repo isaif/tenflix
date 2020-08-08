@@ -133,13 +133,13 @@ body {
   text-align: center;
 }
 
-.faq-list {
+#faq-list {
   list-style: none;
   padding: 0;
   margin: 1.5em 0 2em 0;
 }
 
-.faq-list-item {
+#faq-list-item {
   margin-bottom: 0.5em;
 }
 
