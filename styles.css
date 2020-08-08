@@ -54,6 +54,7 @@ p {
 .hero {
   position: relative;
   height: 75vh;
+  min-height: 500px;
   background-image: url('./assets/movie-pic.jpg');
   background-size: cover;
   background-position: center;
