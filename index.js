@@ -1,22 +1,24 @@
-const faqItems = document.getElementsByClassName('faq-list-item');
+const faqList = document.getElementById('faq-list');
 
-for(let i=0; i<faqItems.length; i++){
-  const faq = faqItems[i];
-  faq.onclick = toggle;
-}
-
-function toggle(e) {
+faqList.addEventListener('click', function(event) {
   // The faq item which has been clicked
-  const targetFaqItem = e.currentTarget.getElementsByClassName('faq-answer')[0].classList;
-  // if targetFaqItem doesn't have closed in its class name
-  // i.e. it is not closed then close it
-  if(!targetFaqItem[1]){
-    closeAll();
-  } else {
-    closeAll();
-    targetFaqItem.remove('closed');
+  const clickedElement = event.target;
+
+  // If the clicked element is faq-question then get its sibling answer element
+  if(clickedElement.className === 'faq-question'){
+    targetFaqAnswer = clickedElement.nextElementSibling.classList;
+
+    // If the answer element is openend then close it
+    // if it is closed then on clicking close all except the target
+    // answer element
+    if(!targetFaqAnswer.contains('closed')){
+      targetFaqAnswer.add('closed');
+    } else {
+      closeAll();
+      targetFaqAnswer.remove('closed');
+    }
   }
-}
+});
 
 function closeAll() {
     const faqAnswers = document.getElementsByClassName('faq-answer');
