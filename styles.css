@@ -189,6 +189,23 @@ p, h1, h2 {
   transform: rotate(-45deg);
 }
 
+.section-animation-container {
+  position: relative;
+}
+
+.section-animation-image {
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+
+.section-animation {
+  position: absolute;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+}
+
 .footer {
   color: #757575;
 }
