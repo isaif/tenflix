@@ -206,6 +206,46 @@ p, h1, h2 {
   width: 100%;
 }
 
+.section-animation-2 {
+  bottom: 15%;
+  z-index: 20;
+}
+
+.animation-box {
+  margin: 0 auto;
+  width: 70%;
+  border: .2em solid #222;
+  border-radius: 0.75em;
+  background: black;
+  display: flex;
+  padding: 0.1em 0.5em;
+}
+
+.animation-poster {
+  height: 3em;
+  margin-right: 1em;
+}
+
+.animation-text {
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+  align-content: center;
+}
+
+.text0 {
+  font-size: 0.9em;
+}
+
+.text1 {
+  font-size: 0.7em;
+  color: #0071eb;
+}
+
+.download-gif {
+  height: 3em;
+}
+
 .footer {
   color: #757575;
 }
