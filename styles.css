@@ -91,7 +91,6 @@ p, h1, h2 {
 }
 
 .hero__text--title, .section__text--title {
-  max-width: 640px;
   /* max-width: 640px; */
   margin: 0 auto;
   font-size: 1.5rem;
@@ -100,7 +99,6 @@ p, h1, h2 {
 }
 
 .hero__text--subtitle, .section__text--subtitle {
-  max-width: 640px;
   /* max-width: 450px; */
   margin: 0 auto;
   font-size: 1rem;
@@ -231,7 +229,7 @@ p, h1, h2 {
 }
 
 .animation-poster {
-  height: 3em;
+  height: 3.5em;
   margin-right: 1em;
 }
 
@@ -240,6 +238,8 @@ p, h1, h2 {
   flex-flow: column;
   flex-grow: 1;
   align-content: center;
+  margin: auto;
+  line-height: 1.5em;
 }
 
 .text0 {
@@ -253,6 +253,7 @@ p, h1, h2 {
 
 .download-gif {
   height: 3em;
+  margin: auto;
 }
 
 .footer {
@@ -297,6 +298,10 @@ p, h1, h2 {
   .hero__text--subtitle, .section__text--subtitle {
     font-size: 1.5rem;
     margin-bottom: 0.5em;
+  }
+
+  .animation-box {
+    font-size: 1.125rem;
   }
 }
 
@@ -344,16 +349,19 @@ p, h1, h2 {
   }
 
   .hero__text--title{
+    max-width: 640px;
     font-size: 3.125rem;
     margin-bottom: 0.3em;
   }
 
   .section__text--title {
+    max-width: 640px;
     font-size: 2.5rem;
     margin-bottom: 0.3em;
   }
 
   .hero__text--subtitle, .section__text--subtitle {
+    max-width: 640px;
     font-size: 1.5rem;
     margin-bottom: 0.5em;
   }
@@ -370,6 +378,10 @@ p, h1, h2 {
   .section2 .container {
     flex-flow: row-reverse;
   }
+
+  /* .animation-box { */
+  /*   font-size: 1.4rem; */
+  /* } */
 
   .section:not(.section4) .section__content {
     width: 45%;
