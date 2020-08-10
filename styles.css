@@ -145,7 +145,8 @@ p, h1, h2 {
 }
 
 .section__content {
-  margin-top: 2em;
+  margin: 2em auto 0 auto;
+  max-width: 600px;
 }
 
 #faq-list {
