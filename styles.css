@@ -11,7 +11,6 @@ body {
   font-family: 'Martel Sans', sans-serif;
   color: #fff;
   background-color: black;
-  font-size: 16px;
 }
 
 p, h1, h2 {
@@ -85,6 +84,8 @@ p, h1, h2 {
   flex-flow: column;
   align-content: center;
   justify-content: center;
+  margin: 0 auto;
+  max-width: 640px;
   /* padding: 2rem 2rem; */
   z-index: 1;
 }
@@ -141,6 +142,10 @@ p, h1, h2 {
   text-align: center;
 }
 
+.section__content {
+  margin-top: 2em;
+}
+
 #faq-list {
   list-style: none;
   padding: 0;
@@ -177,7 +182,7 @@ p, h1, h2 {
   display: none;
 }
 
-.faq-answer span {
+.faq-answer p {
   font-size: 1rem;
 }
 
@@ -277,4 +282,84 @@ p, h1, h2 {
   text-decoration: none;
   color: #757575;
   font-size: .8rem;
+}
+
+@media (min-width: 550px) {
+  .hero__text--title, .section__text--title {
+    font-size: 2.5rem;
+    margin-bottom: 0.3em;
+  }
+
+  .hero__text--subtitle, .section__text--subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+  }
+}
+
+@media (min-width: 950px) {
+  .tenflix-logo {
+    height: 2.5rem;
+    padding-top: .5em;
+  }
+
+  .signin-btn {
+    font-size: 1.125rem;
+  }
+
+  .email-input {
+    font-size: 1.25rem;
+    display: inline;
+  }
+
+  .try-btn {
+    font-size: 1.625rem;
+  }
+
+  .hero__text--title{
+    font-size: 3.125rem;
+    margin-bottom: 0.3em;
+  }
+
+  .section__text--title {
+    font-size: 2.5rem;
+    margin-bottom: 0.3em;
+  }
+
+  .hero__text--subtitle, .section__text--subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+  }
+
+  .container {
+    max-width: 1050px;
+  }
+
+  .section:not(.section4) .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section2 .container {
+    flex-flow: row-reverse;
+  }
+
+  .section:not(.section4) .section__content {
+    width: 45%;
+    text-align: left;
+  }
+  
+  .section:not(.section4) .section__text {
+    width: 45%;
+    margin: auto 0;
+    text-align: left;
+  }
+
+  .footer .container, .section4 .container {
+    max-width: 815px;
+  } 
+
+  .faq-question, .faq-answer p {
+    font-size: 1.5rem;
+  }
+
 }
