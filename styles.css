@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;900&display=swap");
 
 /* * { */
 /*   box-sizing: border-box; */
@@ -8,12 +8,14 @@ body {
   min-width: 320px;
   margin: 0;
   padding: 0;
-  font-family: 'Martel Sans', sans-serif;
+  font-family: "Martel Sans", sans-serif;
   color: #fff;
   background-color: black;
 }
 
-p, h1, h2 {
+p,
+h1,
+h2 {
   margin: 0;
   padding: 0;
 }
@@ -36,7 +38,7 @@ p, h1, h2 {
 
 .tenflix-logo {
   height: 1.75rem;
-  padding-top: .5em;
+  padding-top: 0.5em;
 }
 
 .signin-btn {
@@ -45,8 +47,8 @@ p, h1, h2 {
   padding: 0.1em 0.5em;
   font-size: 1rem;
   float: right;
-  border-radius: .25em;
-  margin-top: .5em;
+  border-radius: 0.25em;
+  margin-top: 0.5em;
   text-decoration: none;
 }
 
@@ -54,17 +56,21 @@ p, h1, h2 {
   position: relative;
   height: 75vh;
   min-height: 500px;
-  background-image: url('./assets/movie-pic.jpg');
+  background-image: url("./assets/movie-pic.jpg");
   background-size: cover;
   background-position: center;
-  border-bottom: .5em solid #222;
+  border-bottom: 0.5em solid #222;
 }
 
 .image-overlay {
   height: 100%;
   width: 100%;
   position: absolute;
-  background: radial-gradient(ellipse at center, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0.9) 100%); 
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0.55) 0%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
 }
 
 .hero-container {
@@ -90,7 +96,8 @@ p, h1, h2 {
   z-index: 1;
 }
 
-.hero__text--title, .section__text--title {
+.hero__text--title,
+.section__text--title {
   /* max-width: 640px; */
   margin: 0 auto;
   font-size: 1.5rem;
@@ -98,7 +105,8 @@ p, h1, h2 {
   line-height: 1.2;
 }
 
-.hero__text--subtitle, .section__text--subtitle {
+.hero__text--subtitle,
+.section__text--subtitle {
   /* max-width: 450px; */
   margin: 0 auto;
   font-size: 1rem;
@@ -132,12 +140,12 @@ p, h1, h2 {
   color: #fff;
   padding: 0.4em 1em;
   font-size: 1rem;
-  border-radius: .25em;
+  border-radius: 0.25em;
   text-decoration: none;
 }
 
 .section {
-  border-bottom: .5em solid #222;
+  border-bottom: 0.5em solid #222;
 }
 
 .section__text {
@@ -222,7 +230,7 @@ p, h1, h2 {
 .animation-box {
   margin: 0 auto;
   width: 70%;
-  border: .2em solid #222;
+  border: 0.2em solid #222;
   border-radius: 0.75em;
   background: black;
   display: flex;
@@ -287,16 +295,18 @@ p, h1, h2 {
 .footer-link {
   text-decoration: none;
   color: #757575;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 @media (min-width: 550px) {
-  .hero__text--title, .section__text--title {
+  .hero__text--title,
+  .section__text--title {
     font-size: 2.5rem;
     margin-bottom: 0.3em;
   }
 
-  .hero__text--subtitle, .section__text--subtitle {
+  .hero__text--subtitle,
+  .section__text--subtitle {
     font-size: 1.5rem;
     margin-bottom: 0.5em;
   }
@@ -309,7 +319,7 @@ p, h1, h2 {
 @media (min-width: 950px) {
   .tenflix-logo {
     height: 2.5rem;
-    padding-top: .5em;
+    padding-top: 0.5em;
   }
 
   .signin-btn {
@@ -333,7 +343,7 @@ p, h1, h2 {
     display: flex;
     margin: 2em auto;
   }
-  
+
   .form-title {
     font-size: 1.125rem;
   }
@@ -349,7 +359,7 @@ p, h1, h2 {
     border-radius: 0;
   }
 
-  .hero__text--title{
+  .hero__text--title {
     max-width: 640px;
     font-size: 3.125rem;
     margin-bottom: 0.3em;
@@ -361,7 +371,8 @@ p, h1, h2 {
     margin-bottom: 0.3em;
   }
 
-  .hero__text--subtitle, .section__text--subtitle {
+  .hero__text--subtitle,
+  .section__text--subtitle {
     max-width: 640px;
     font-size: 1.5rem;
     margin-bottom: 0.5em;
@@ -403,18 +414,18 @@ p, h1, h2 {
   .section4 .container,
   .form-content {
     max-width: 815px;
-  } 
+  }
 
   .section4 .section__text {
     margin: 2em 0 3em 0;
   }
 
-  .faq-question, .faq-answer p {
+  .faq-question,
+  .faq-answer p {
     font-size: 1.5rem;
   }
 
   .footer-link-item {
     width: 20%;
   }
-
 }
