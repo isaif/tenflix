@@ -1,33 +1,28 @@
-const faqList = document.getElementById('faq-list');
+const faqList = document.getElementById("faq-list");
 
-faqList.addEventListener('click', function(event) {
-  // The faq item which has been clicked
+faqList.addEventListener("click", function (event) {
   const clickedElement = event.target;
 
-  // If the clicked element is faq-question then get its sibling answer element
-  if(clickedElement.className === 'faq-question'){
-    targetFaqAnswer = clickedElement.nextElementSibling.classList;
+  const faqQuestionElement = clickedElement.closest(".faq-question");
 
-    // If the answer element is openend then close it
-    // if it is closed then on clicking close all except the target
-    // answer element
-    if(!targetFaqAnswer.contains('closed')){
-      targetFaqAnswer.add('closed');
-    } else {
-      closeAll();
-      targetFaqAnswer.remove('closed');
-    }
+  let targetFaqAnswer = faqQuestionElement.nextElementSibling.classList;
+
+  if (!targetFaqAnswer.contains("closed")) {
+    targetFaqAnswer.add("closed");
+  } else {
+    closeAll();
+    targetFaqAnswer.remove("closed");
   }
 });
 
 function closeAll() {
-  const faqAnswers = document.getElementsByClassName('faq-answer');
+  const faqAnswers = document.getElementsByClassName("faq-answer");
 
   // convert faqAnswers from HTMLcolletion to an array and loop
-  [...faqAnswers].forEach(answer => {
+  [...faqAnswers].forEach((answer) => {
     answerClasses = answer.classList;
-    if(!answerClasses.contains('closed')){
-      answerClasses.add('closed');
+    if (!answerClasses.contains("closed")) {
+      answerClasses.add("closed");
     }
-  })
+  });
 }
