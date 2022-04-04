@@ -423,6 +423,10 @@ h2 {
     max-width: 815px;
   }
 
+  .section2 .section__content {
+    margin: 2em 4em 0 0;
+  }
+
   .section4 .section__text {
     margin: 2em 0 3em 0;
   }
