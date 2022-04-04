@@ -2,6 +2,8 @@
 
 This is github repository for the netflix landing page clone. I have changed name from "Netflix" to "Tenflix" :)
 
+This is made using HTML, CSS and Javascript without any framework.
+
 You can see the live demo [here](https://isaif.github.io/tenflix/)
 
 ## How assets were made?
