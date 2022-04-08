@@ -437,9 +437,9 @@ h2 {
     flex-flow: row-reverse;
   }
 
-  /* .animation-box { */
-  /*   font-size: 1.4rem; */
-  /* } */
+  .animation-box {
+    font-size: 1.4rem;
+  }
 
   .section:not(.section4) .section__content {
     width: 45%;
@@ -462,9 +462,9 @@ h2 {
     max-width: 815px;
   }
 
-  .section2 .section__content {
-    margin: 2em 4em 0 0;
-  }
+  /* .section2 .section__content { */
+  /*   margin: 2em 4em 0 0; */
+  /* } */
 
   .section4 .section__text {
     margin: 2em 0 3em 0;
