@@ -180,6 +180,16 @@ h2 {
   width: 100%;
 }
 
+.section2 .section__content {
+  position: relative;
+}
+
+.section__content--animation {
+  bottom: 15%;
+  position: absolute;
+  width: 100%;
+}
+
 #faq-list {
   list-style: none;
   padding: 0;
