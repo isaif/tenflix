@@ -20,6 +20,10 @@ h2 {
   padding: 0;
 }
 
+.border {
+  border-bottom: 0.5em solid #222;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
@@ -69,7 +73,6 @@ h2 {
   background-image: url("./assets/movie-pic.jpg");
   background-size: cover;
   background-position: center;
-  border-bottom: 0.5em solid #222;
 }
 
 .image-overlay {
@@ -162,7 +165,6 @@ h2 {
 }
 
 .section {
-  border-bottom: 0.5em solid #222;
 }
 
 .section__text {
