@@ -297,7 +297,7 @@ h2 {
   color: #757575;
 }
 
-.footer__text p {
+.footer__text {
   margin: 0;
   padding-left: 1em;
 }
@@ -320,7 +320,7 @@ h2 {
   margin-top: 0.7em;
 }
 
-.footer-link {
+.footer-link-item a {
   text-decoration: none;
   color: #757575;
   font-size: 0.8rem;
@@ -438,7 +438,7 @@ h2 {
     margin-bottom: 5em;
   }
 
-  .footer .container,
+  .footer.container,
   .section4 .container,
   .form-content {
     max-width: 815px;
