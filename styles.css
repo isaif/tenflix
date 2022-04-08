@@ -176,6 +176,10 @@ h2 {
   max-width: 600px;
 }
 
+.section__content--image {
+  width: 100%;
+}
+
 #faq-list {
   list-style: none;
   padding: 0;
