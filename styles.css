@@ -180,7 +180,8 @@ h2 {
   width: 100%;
 }
 
-.section2 .section__content {
+.section2 .section__content,
+.section3 .section__content {
   position: relative;
 }
 
@@ -264,11 +265,12 @@ h2 {
   z-index: 20;
 }
 
-.section-animation-3 {
+.section__content--video {
   top: 8%;
-  width: 60%;
+  width: 63%;
   position: absolute;
   left: 18%;
+  z-index: -1;
 }
 
 .animation-box {
