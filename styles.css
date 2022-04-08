@@ -365,7 +365,6 @@ h2 {
 @media (min-width: 950px) {
   .tenflix-logo {
     height: 2.5rem;
-    padding-top: 0.5em;
   }
 
   .signin-btn {
@@ -376,34 +375,35 @@ h2 {
     height: 90vh;
   }
 
-  .email-input {
-    font-size: 1.25rem;
-    display: inline;
-  }
-
-  .try-form {
-    margin-bottom: 3em;
-  }
-
-  .form-content {
-    display: flex;
-    margin: 2em auto;
-  }
+  /* .try-form { */
+  /*   margin-bottom: 3em; */
+  /* } */
 
   .form-title {
     font-size: 1.125rem;
   }
 
+  .form-content {
+    display: flex;
+    margin: 1em auto;
+    max-width: 700px;
+  }
+
   .email-input {
+    font-size: 1rem;
     margin: 0;
     width: 60%;
     flex-grow: 1;
   }
 
   .try-btn {
-    font-size: 1.625rem;
+    font-size: 1.5rem;
     border-radius: 0;
   }
+
+  /* .hero__text { */
+  /*   margin-top: 4em; */
+  /* } */
 
   .hero__text--title {
     max-width: 640px;
@@ -428,39 +428,40 @@ h2 {
     max-width: 1050px;
   }
 
-  .section:not(.section4) .container {
+  .section1,
+  .section2,
+  .section3 {
     display: flex;
     justify-content: space-between;
   }
 
-  .section2 .container {
+  .container:not(.section4) .section__text {
+    width: 45%;
+    margin: auto 0;
+    text-align: left;
+  }
+
+  .container:not(.section4) .section__content {
+    width: 45%;
+    text-align: left;
+  }
+
+  .section2 {
     flex-flow: row-reverse;
+  }
+
+  .section2 .section__content {
+    margin: 2em 4em 0 0;
   }
 
   .animation-box {
     font-size: 1.4rem;
   }
 
-  .section:not(.section4) .section__content {
-    width: 45%;
-    text-align: left;
-  }
-
-  .section:not(.section4) .section__text {
-    width: 45%;
-    margin: auto 0;
-    text-align: left;
-  }
-
-  #faq-list {
-    margin-bottom: 5em;
-  }
-
-  .footer.container,
-  .section4 .container,
-  .form-content {
-    max-width: 815px;
-  }
+  /* .footer.container, */
+  /* .section4.container { */
+  /*   max-width: 815px; */
+  /* } */
 
   /* .section2 .section__content { */
   /*   margin: 2em 4em 0 0; */
@@ -470,9 +471,25 @@ h2 {
     margin: 2em 0 3em 0;
   }
 
+  .section4 .section__content {
+    max-width: 700px;
+  }
+
+  #faq-list {
+    margin-bottom: 5em;
+  }
+
   .faq-question,
   .faq-answer p {
     font-size: 1.5rem;
+  }
+
+  .section4 .try-form {
+    margin-bottom: 2em;
+  }
+
+  .footer {
+    max-width: 700px;
   }
 
   .footer-link-item {
