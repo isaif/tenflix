@@ -1,9 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;900&display=swap");
-
-/* * { */
-/*   box-sizing: border-box; */
-/* } */
-
 body {
   min-width: 320px;
   margin: 0;
@@ -91,7 +86,7 @@ h2 {
 }
 
 .hero__text {
-  /* flex-grow: 1; */
+  
   display: flex;
   text-align: center;
   flex-flow: column;
@@ -101,14 +96,12 @@ h2 {
   width: 90%;
   height: 100%;
   margin-top: 2em;
-  /* margin: 0 auto; */
-  /* max-width: 640px; */
-  /* padding: 2rem 2rem; */
+
 }
 
 .hero__text--title,
 .section__text--title {
-  /* max-width: 640px; */
+ 
   margin: 0 auto;
   font-size: 1.5rem;
   margin-bottom: 0.6em;
@@ -117,7 +110,7 @@ h2 {
 
 .hero__text--subtitle,
 .section__text--subtitle {
-  /* max-width: 450px; */
+
   margin: 0 auto;
   font-size: 1rem;
   margin-bottom: 1em;
@@ -223,7 +216,7 @@ h2 {
   height: 1em;
   width: 1em;
   float: right;
-  /* transform: rotate(-45deg); */
+
 }
 
 .svg-icon.closed {
@@ -340,9 +333,6 @@ h2 {
     height: 90vh;
   }
 
-  /* .try-form { */
-  /*   margin-bottom: 3em; */
-  /* } */
 
   .form-title {
     font-size: 1.125rem;
@@ -366,9 +356,6 @@ h2 {
     border-radius: 0;
   }
 
-  /* .hero__text { */
-  /*   margin-top: 4em; */
-  /* } */
 
   .hero__text--title {
     max-width: 640px;
@@ -423,14 +410,6 @@ h2 {
     font-size: 1.4rem;
   }
 
-  /* .footer.container, */
-  /* .section4.container { */
-  /*   max-width: 815px; */
-  /* } */
-
-  /* .section2 .section__content { */
-  /*   margin: 2em 4em 0 0; */
-  /* } */
 
   .section4 .section__text {
     margin: 2em 0 3em 0;
